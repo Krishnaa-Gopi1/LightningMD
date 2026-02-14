@@ -12,11 +12,11 @@ LightningMD is a high-performance C++ tick analytics engine built for quantitati
 
 ## Build Instructions
 
-mkdir build
-cd build
-cmake -G "MinGW Makefiles" ..
-mingw32-make
-./LightningMD
+mkdir build \
+cd build \
+cmake -G "MinGW Makefiles" .. \
+mingw32-make \
+./LightningMD 
 
 ## Future Work
 
