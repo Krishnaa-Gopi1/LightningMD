@@ -6,9 +6,9 @@
 
 int main(){
 
-    Reader reader("../data/sample_ticks.csv");               //Reader object for the file "sample_ticks.csv"
+    Reader reader("../data/sample_ticks.csv");            //Reader object for the file "sample_ticks.csv"
     auto ticks = reader.read_all();                       //reads the csv file and stores Tick data in a vector
 
-    Engine engine;                                        //Engine object created
+    Engine engine(40);                                    //Engine object created
     engine.process(ticks);                                //processes Tick data stored in "ticks" vector
 }
