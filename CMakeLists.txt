@@ -10,4 +10,6 @@ add_executable(LightningMD
     src/main.cpp
     src/Reader.cpp
     src/Engine.cpp
+    src/RollingVWAP.cpp
+    src/RollingVolatility.cpp
 )
